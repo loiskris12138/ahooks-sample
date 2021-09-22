@@ -1,6 +1,5 @@
 import React, { useState, useEffect, memo, FC } from 'react'
-import useEventEmitter from './Code'
-// import {useEventEmitter} from 'ahooks'
+import {useEventEmitter} from 'ahooks'
 import ButtonApp from './ButtonApp'
 import InputApp from './InputApp'
 import WordApp from './WordApp'
